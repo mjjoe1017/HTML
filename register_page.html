@@ -1,0 +1,23 @@
+<!DOCTYPE>
+<html>
+	<body>
+		<form action="registerPage.py" method="post">
+			<fieldset>
+				<legend>註冊頁面：</legend>
+				使用者名稱：<input type="text" name="username" /><br />
+				<p>使用者名稱可以包含任何文字或數字，但不包含空白！</p>
+
+				E-mail:<input type="email" name="email" /><br />
+				<p>請提供電子信箱</p>
+
+				密碼：<input type="password" name="pwd" /><br />
+				<p>密碼最短至少要4個字元以上</p>
+
+				確認密碼：<input type="password" name="confirm_password" />
+				<p>請重新輸入密碼</p>
+
+				<button type="button" onclick="alert('register')">註冊</button>
+			</fieldset>
+		</form>
+	</body>
+</html>
